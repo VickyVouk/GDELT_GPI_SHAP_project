@@ -5,7 +5,7 @@ library(rpart)
 library(party)
 library(MLmetrics)
 
-path1 = '../../all_variables_j/'
+path1 = '../../all_variables_and_GPI_monthly_all_countries/'
 path2 = '../../elnet_results/'
 
 country_files = list.files(path1, pattern="*.csv")
@@ -117,6 +117,6 @@ for (i in country_files){
     }
     write.csv(df_results_analytics, file.path (path2, paste(country, '_elnet_', train_set, '_results.csv', sep = '')), row.names=T)
   }
-  #Confirm remove all objects before going to the next interation
+  #Confirm remove all objects before going to the next interaction
   #rm(list = ls(all.names = TRUE))
 }  
