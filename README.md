@@ -7,7 +7,8 @@
 ## GDELT data
 - We use the Google BigQuery to download the GDELT data, at a country and monthly level from March 2008 to September 2020. 
 The data can be found in the folder named `gdelt_data_200803_202009`.
-- We merge GPI and GDELT data at a country level, and we prepare the dataframes for machine learning, using the code named `Preparation_gpi_gdelt_files_for_machine_learning.ipynb`.
+- We merge GPI and GDELT data at a country level, and we prepare the dataframes for machine learning, using the code named `Preparation_gpi_gdelt_files_for_machine_learning.ipynb`. We repeat this code twice in order to create our data: the folders `all_variables_and_GPI_monthly_all_countries` and `all_variables_200803_202009` contain
+the data prepared for machine learning and future prediction respectively.  
 
 ## Machine learning
 We use 5 different algorithms for the machine learning of our models, i.e.,
