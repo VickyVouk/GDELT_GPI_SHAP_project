@@ -1,4 +1,4 @@
-# Understanding peacefulness through the world news (step-by-step methodology)
+# Understanding peace through the world news (step-by-step methodology)
 ## GPI data
 - We get the yearly GPI data, which are available from the official sources, for all countries from 2008 to 2020. These data can be found in the folder named `gpi_all_countries.csv`.
 - Next, we use the `Fips10_4.csv` to match the countries with the FIPS country codes used by the GDELT database. 
