@@ -40,7 +40,8 @@ Below, you can find the different regression models used for the training of our
 Below, Figure 1 presents the Pearson Correlation and MAPE between the real and the predicted 1-, 3-, and 6-months-ahead GPI values at a country level for all predictive models. The boxplots represent the distribution of the Pearson correlation and MAPE for all country models. The plots' data points correspond to each country model. Overall, XGBoost outperforms all other models. Therefore, we focus the rest of the analysis based on XGBoost model results.
 
 <img width="489" alt="results_models" src="https://user-images.githubusercontent.com/35956507/146415438-7b5e7c27-fc3b-4966-bb0c-941462497ef8.png">
-<sup>Figure 1. Pearson Correlation and MAPE for all country model. </sup>
+
+<sup>Figure 1. Pearson Correlation and MAPE between the real and the predicted 1-, 3-, and 6-months-ahead GPI values at a country level for all predictive models. </sup>
 
 
 ## SHAP methodology
