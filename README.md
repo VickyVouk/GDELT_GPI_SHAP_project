@@ -26,14 +26,16 @@ GPI data are available from 2008 until 2020 at a yearly level. We download the y
 using the code named `Upsampling_GPI_score_for_all_countries.ipynb`.
 
 ## Machine learning
-We merge GDELT and GPI data at a country level, and we prepare the data for machine learning, using the code named `Preparation_gpi_gdelt_files_for_machine_learning.ipynb`. 
+We merge GDELT and GPI data at a country level, and we prepare the data for machine learning, using the code named `Preparation_gpi_gdelt_files_for_machine_learning.ipynb`. We create 163 files with data at a country and monthly level.
+In addition, we use Linear Regression, Elastic Net, Decision Tree, Support Vector Regression (SVR), Random Forest, and Extreme Gradient Boosting (XGBoost) to investigate the relationship between the GPI score and the GDELT variables at a country and monthly level. Specifically, we aim to develop GPI estimates 1-month-ahead to 6-months-ahead of the latest ground-truth GPI value and find the model with the highest performance overall.
 
-We use 5 different algorithms for the machine learning of our models, i.e.,
-1. Elasticnet (the R code and the packages used can be found in `Elasticnet_predictions.R`),
-2. Decision Tree (the python code and the packages used can be found in `Decision_tree_predictions.ipynb`),
-3. Random Forest (the python code and the packages used can be found in `Random_forest_predictions.ipynb`),
-4. Extreme Gradient Boosting (XGBoost) (the python code and the packages used can be found in `XGboost_predictions.ipynb`), and
-5. Support Vector Regressor (SVR) (the R code and the packages used can be found in `SVR_predictions.R`).
+Below, you can find the different algorithms used for the training of our models, i.e.,
+1. 
+2. Elasticnet (the R code and the packages used can be found in `Elasticnet_predictions.R`),
+3. Decision Tree (the python code and the packages used can be found in `Decision_tree_predictions.ipynb`),
+4. Random Forest (the python code and the packages used can be found in `Random_forest_predictions.ipynb`),
+5. Extreme Gradient Boosting (XGBoost) (the python code and the packages used can be found in `XGboost_predictions.ipynb`), and
+6. Support Vector Regressor (SVR) (the R code and the packages used can be found in `SVR_predictions.R`).
 
 
 We repeat this code twice in order to create our data: the folders `all_variables_and_GPI_monthly_all_countries` and `all_variables_200803_202009` contain
