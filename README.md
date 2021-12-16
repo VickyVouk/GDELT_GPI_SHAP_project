@@ -11,8 +11,7 @@ For GPI prediction, we derive several variables from GDELT, corresponding to the
 the Google Cloud Platform to extract the GDELT variables. You can find the query for the extraction of GDELT variables below:
 
 `SELECT ActionGeo_CountryCode,MonthYear,EventBaseCode,
-
-COUNT(EventBaseCode) AS No_events,;
+COUNT(EventBaseCode) AS No_events,
 FROM 'gdelt-bq.full.events' 
 WHERE(MonthYear>200802)AND(MonthYear<202010)
 AND(ActionGeo_CountryCode<>'null')
