@@ -33,13 +33,16 @@ Below, you can find the different regression models used for the training of our
 1. Linear regression (the R code and the packages used can be found in `Linear_predictions.R`),
 2. Elasticnet (the R code and the packages used can be found in `Elasticnet_predictions.R`),
 3. Decision Tree (the python code and the packages used can be found in `Decision_tree_predictions.ipynb`),
-4. Support Vector Regressor (SVR) (the R code and the packages used can be found in `SVR_predictions.R`).
-5. Random Forest (the python code and the packages used can be found in `Random_forest_predictions.ipynb`),
-6. Extreme Gradient Boosting (XGBoost) (the python code and the packages used can be found in `XGboost_predictions.ipynb`), and
+4. Support Vector Regressor (SVR) (the R code and the packages used can be found in `SVR_predictions.R`),
+5. Random Forest (the python code and the packages used can be found in `Random_forest_predictions.ipynb`), and
+6. Extreme Gradient Boosting (XGBoost) (the python code and the packages used can be found in `XGboost_predictions.ipynb`).
+
+Below, Figure 1 presents the Pearson Correlation and MAPE between the real and the predicted 1-, 3-, and 6-months-ahead GPI values at a country level for all predictive models. The boxplots represent the distribution of the Pearson correlation and MAPE for all country models. The plots' data points correspond to each country model. Overall, XGBoost outperforms all other models. Therefore, we focus the rest of the analysis based on XGBoost model results.
 
 <img width="489" alt="results_models" src="https://user-images.githubusercontent.com/35956507/146415438-7b5e7c27-fc3b-4966-bb0c-941462497ef8.png">
+<sup>Figure 1. Pearson Correlation and MAPE for all country model. </sup>
 
-We run again the code `Preparation_gpi_gdelt_files_for_machine_learning.ipynb` to create the data that we used for future prediction when GPI data is not yet available. These data can find in the folder named `all_variables_200803_202009`.  
+We run again the code `Preparation_gpi_gdelt_files_for_machine_learning.ipynb` to create the data that we used for future prediction when GPI data is not yet available. These data can find in the folder named `all_variables_200803_202009`. 
 
 ## SHAP methodology
 We use the SHAP methodology to identify which external GDELT variables drive the GPI estimations. This can be useful for explaining the models' behavior and diagnosing errors in the predictions. Particularly, we choose Saudi Arabia and Yemen to understand better and interpret the results and errors of the predictive models based on historical data. Additionally, we choose the United Kingdom and the United States to estimate their future GPI values to gain initial insights into the country's peace before the official GPI score becomes available. Below, you can find the corresponding codes:
