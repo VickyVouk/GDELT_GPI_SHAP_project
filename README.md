@@ -29,24 +29,21 @@ using the code named `Upsampling_GPI_score_for_all_countries.ipynb`.
 We merge GDELT and GPI data at a country level, and we prepare the data for machine learning, using the code named `Preparation_gpi_gdelt_files_for_machine_learning.ipynb`. We create 163 files with data at a country and monthly level.
 In addition, we use Linear Regression, Elastic Net, Decision Tree, Support Vector Regression (SVR), Random Forest, and Extreme Gradient Boosting (XGBoost) to investigate the relationship between the GPI score and the GDELT variables at a country and monthly level. Specifically, we aim to develop GPI estimates 1-month-ahead to 6-months-ahead of the latest ground-truth GPI value and find the model with the highest performance overall.
 
-Below, you can find the different algorithms used for the training of our models, i.e.,
-1. 
+Below, you can find the different regression models used for the training of our models, i.e.,
+1. Linear regression (the R code and the packages used can be found in `Linear_predictions.R`),
 2. Elasticnet (the R code and the packages used can be found in `Elasticnet_predictions.R`),
 3. Decision Tree (the python code and the packages used can be found in `Decision_tree_predictions.ipynb`),
-4. Random Forest (the python code and the packages used can be found in `Random_forest_predictions.ipynb`),
-5. Extreme Gradient Boosting (XGBoost) (the python code and the packages used can be found in `XGboost_predictions.ipynb`), and
-6. Support Vector Regressor (SVR) (the R code and the packages used can be found in `SVR_predictions.R`).
+4. Support Vector Regressor (SVR) (the R code and the packages used can be found in `SVR_predictions.R`).
+5. Random Forest (the python code and the packages used can be found in `Random_forest_predictions.ipynb`),
+6. Extreme Gradient Boosting (XGBoost) (the python code and the packages used can be found in `XGboost_predictions.ipynb`), and
 
+(image_results)
 
-We repeat this code twice in order to create our data: the folders `all_variables_and_GPI_monthly_all_countries` and `all_variables_200803_202009` contain
-the data prepared for machine learning and future prediction respectively.
-data at a country level, and we prepare the dataframes for machine learning, using the code named `Preparation_gpi_gdelt_files_for_machine_learning.ipynb`. We repeat this code twice in order to create our data: the folders `all_variables_and_GPI_monthly_all_countries` and `all_variables_200803_202009` contain
-the data prepared for machine learning and future prediction respectively.  
+We run again the code `Preparation_gpi_gdelt_files_for_machine_learning.ipynb` to create the data that we used for future prediction when GPI data is not yet available. These data can find in the folder named `all_variables_200803_202009`.  
 
-# SHAP methodology
-To understand the variables that contribute to the measurement of peacefulness, and to explain the behaviour of the models we conduct four case studies, and
-we apply the SHAP methodology:
-1. Saudi Arabia case study (the python code and the packages used can be found in `Shap_XGboost_training_SA.ipynb`),
-2. Yemen case study (the python code and the packages used can be found in `Shap_XGboost_training_YM.ipynb`),
-3. United States case study (the python code and the packages used can be found in `Shap_XGboost_future_prediction_US.ipynb`), and
-4. United Kingdom case study (the python code and the packages used can be found in `Shap_XGboost_future_prediction_UK.ipynb`).
+## SHAP methodology
+We use the SHAP methodology to identify which external GDELT variables drive the GPI estimations. This can be useful for explaining the models' behavior and diagnosing errors in the predictions. Particularly, we choose Saudi Arabia and Yemen to understand better and interpret the results and errors of the predictive models based on historical data. Additionally, we choose the United Kingdom and the United States to estimate their future GPI values to gain initial insights into the country's peace before the official GPI score becomes available. Below, you can find the corresponding codes:
+1. The Saudi Arabia study (the python code and the packages used can be found in `Shap_XGboost_training_SA.ipynb`),
+2. The Yemen study (the python code and the packages used can be found in `Shap_XGboost_training_YM.ipynb`),
+3. The United States study (the python code and the packages used can be found in `Shap_XGboost_future_prediction_US.ipynb`), and
+4. The United Kingdom study (the python code and the packages used can be found in `Shap_XGboost_future_prediction_UK.ipynb`).
