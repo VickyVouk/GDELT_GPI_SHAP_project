@@ -37,7 +37,8 @@ Below, you can find the different regression models used for the training of our
 5. Random Forest (the python code and the packages used can be found in `Random_forest_predictions.ipynb`),
 6. Extreme Gradient Boosting (XGBoost) (the python code and the packages used can be found in `XGboost_predictions.ipynb`), and
 
-![alt text]<img width="489" alt="results_models" src="https://user-images.githubusercontent.com/35956507/146415130-bd90b938-2906-4268-b2e0-f6d3ac3c813d.png">
+[results_models.pdf](https://github.com/VickyVouk/GDELT_GPI_SHAP_project/files/7729117/results_models.pdf)
+
 We run again the code `Preparation_gpi_gdelt_files_for_machine_learning.ipynb` to create the data that we used for future prediction when GPI data is not yet available. These data can find in the folder named `all_variables_200803_202009`.  
 
 ## SHAP methodology
