@@ -37,7 +37,7 @@ Below, you can find the different regression models used for the training of our
 5. Random Forest (the python code and the packages used can be found in `Random_forest_predictions.ipynb`),
 6. Extreme Gradient Boosting (XGBoost) (the python code and the packages used can be found in `XGboost_predictions.ipynb`), and
 
-[embed] https://github.com/VickyVouk/GDELT_GPI_SHAP_project/blob/master/figures_results/results_models.pdf [/embed]
+<img width="489" alt="results_models" src="https://user-images.githubusercontent.com/35956507/146415438-7b5e7c27-fc3b-4966-bb0c-941462497ef8.png">
 
 We run again the code `Preparation_gpi_gdelt_files_for_machine_learning.ipynb` to create the data that we used for future prediction when GPI data is not yet available. These data can find in the folder named `all_variables_200803_202009`.  
 
@@ -47,3 +47,5 @@ We use the SHAP methodology to identify which external GDELT variables drive the
 2. The Yemen study (the python code and the packages used can be found in `Shap_XGboost_training_YM.ipynb`),
 3. The United States study (the python code and the packages used can be found in `Shap_XGboost_future_prediction_US.ipynb`), and
 4. The United Kingdom study (the python code and the packages used can be found in `Shap_XGboost_future_prediction_UK.ipynb`).
+
+For example, for the Yemen 
