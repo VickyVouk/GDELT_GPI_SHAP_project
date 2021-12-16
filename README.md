@@ -12,9 +12,9 @@ the Google Cloud Platform to extract the GDELT variables. You can find the query
 
 `SELECT ActionGeo_CountryCode,MonthYear,EventBaseCode,
 COUNT(EventBaseCode) AS No_events,
-FROM `gdelt-bq.full.events' 
+FROM 'gdelt-bq.full.events' 
 WHERE(MonthYear>200802)AND(MonthYear<202010)
-AND(ActionGeo_CountryCode<>`null')
+AND(ActionGeo_CountryCode<>'null')
 GROUP BY ActionGeo_CountryCode,MonthYear,EventBaseCode
 ORDER BY ActionGeo_CountryCode,MonthYear,EventBaseCode`
 
