@@ -48,4 +48,5 @@ We use the SHAP methodology to identify which external GDELT variables drive the
 3. The United States study (the python code and the packages used can be found in `Shap_XGboost_future_prediction_US.ipynb`), and
 4. The United Kingdom study (the python code and the packages used can be found in `Shap_XGboost_future_prediction_UK.ipynb`).
 
-For example, for the Yemen 
+For example, for the Yemen:
+<img width="963" alt="Yemen_prediction_June_2018" src="https://user-images.githubusercontent.com/35956507/146416853-8707f177-93bd-40aa-9c6c-5681664556a1.png">
