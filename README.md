@@ -1,10 +1,26 @@
 # Understanding peace through the world news 
 
 ## Table of contents  
-1. [Abstract](#Abstract) 
-2. [Data](#Data)
-3. [Machine learning](#Machinelearning)
-4. [SHAP methodology](#SHAPmethodology)
+1. [Citing](#Citing)
+2. [Abstract](#Abstract) 
+3. [Data](#Data)
+4. [Machine learning](#Machinelearning)
+5. [SHAP methodology](#SHAPmethodology)
+
+## Citing
+<a name="Citing"/>
+
+If you use our approach or code in this repository, please cite our paper:
+
+Voukelatou, V., Miliou, I., Giannotti, F., & Pappalardo, L. (2021). Understanding peacefulness through the world news. arXiv preprint arXiv:2106.00306.  <br/>
+https://arxiv.org/abs/2106.00306
+
+@article{voukelatou2021understanding, <br/>
+  title={Understanding peacefulness through the world news}, <br/>
+  author={Voukelatou, Vasiliki and Miliou, Ioanna and Giannotti, Fosca and Pappalardo, Luca}, <br/>
+  journal={arXiv preprint arXiv:2106.00306}, <br/>
+  year={2021}
+} 
 
 
 <a name="Abstract"/>
