@@ -1,4 +1,4 @@
-# Understanding peace through the world news (step-by-step methodology)
+# Understanding peace through the world news 
 # Table of contents
 # Abstract 
 Peace is a principal dimension of well-being and is the way out of inequity and violence. Thus, its measurement has drawn the attention of researchers, policymakers, and peacekeepers. During the last years, novel digital data streams have drastically changed the research in this field. The current study exploits information extracted from a new digital database called Global Data on Events, Location, and Tone (GDELT) to capture peace through the Global Peace Index (GPI). Applying predictive machine learning models, we demonstrate that news media attention from GDELT can be used as a proxy for measuring GPI at a monthly level. Additionally, we use techniques from explainable AI to obtain the most important variables that drive the predictions. 
