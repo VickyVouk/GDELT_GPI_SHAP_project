@@ -4,7 +4,7 @@
 Peace is a principal dimension of well-being and is the way out of inequity and violence. Thus, its measurement has drawn the attention of researchers, policymakers, and peacekeepers. During the last years, novel digital data streams have drastically changed the research in this field. The current study exploits information extracted from a new digital database called Global Data on Events, Location, and Tone (GDELT) to capture peace through the Global Peace Index (GPI). Applying predictive machine learning models, we demonstrate that news media attention from GDELT can be used as a proxy for measuring GPI at a monthly level. Additionally, we use techniques from explainable AI to obtain the most important variables that drive the predictions. 
 This analysis highlights each country's profile and provides explanations for the predictions, and particularly for the errors and the events that drive these errors. We believe that digital data exploited by researchers, policymakers, and peacekeepers, with data science tools as powerful as machine learning, could contribute to maximizing the societal benefits and minimizing the risks to peace.
 
-## Data preprocessing
+## Data extraction and preprocessing
 
 ### GDELT data
 For GPI prediction, we derive several variables from the GDELT database. The variables correspond to the total number of events (No. events) of each GDELT category at a country and monthly level. On average, the number of variables per country is 87, varying from 25 to 141. We use the BigQuery data manipulation language in 
