@@ -88,6 +88,6 @@ We use the SHAP methodology to identify which external GDELT variables drive the
 
 For example, Figure 2 presents the local SHAP plot for Yemen. The prediction for June 2018 is 3.23, which corresponds to the 1-month-ahead prediction. The base value is the value that would be predicted if the variables for the current output were unavailable. The plot also displays the most important variables that the model uses for the GPI estimation, such as "Discuss by telephone" and "Provide military aid". 
 
+<img width="605" alt="Screen Shot 2021-12-17 at 4 35 42 PM" src="https://user-images.githubusercontent.com/35956507/146569320-4c902590-2494-456d-bf72-087a46e3ecec.png">
 
-<img width="963" alt="Yemen_prediction_June_2018" src="https://user-images.githubusercontent.com/35956507/146416853-8707f177-93bd-40aa-9c6c-5681664556a1.png">
 <sup>Figure 2. It presents the model output value, i.e., the GPI estimation of June 2018. The red arrows are the variables that push the GPI estimation higher, and the blue ones push the estimation lower.</sup>
