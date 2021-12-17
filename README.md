@@ -7,7 +7,7 @@ This analysis highlights each country's profile and provides explanations for th
 ## Data preprocessing
 
 ### GDELT data
-For GPI prediction, we derive several variables from GDELT, corresponding to the total number of events (No. events) of each GDELT category at a country and monthly level. On average, the number of variables per country is 87, varying from 25 to 141. We use the BigQuery data manipulation language in 
+For GPI prediction, we derive several variables from the GDELT database. The variables correspond to the total number of events (No. events) of each GDELT category at a country and monthly level. On average, the number of variables per country is 87, varying from 25 to 141. We use the BigQuery data manipulation language in 
 the Google Cloud Platform to extract the GDELT variables. You can find the query for the extraction of GDELT variables below:
 
 `SELECT ActionGeo_CountryCode,MonthYear,EventBaseCode,
