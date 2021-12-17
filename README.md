@@ -1,12 +1,10 @@
 # Understanding peace through the world news 
+
 ## Table of contents  
-[Abstract](#Abstract)  
-[Data] (#Data)
-[SHAP methodology](#SHAPmethodology)
-
-...snip...    
-
-
+1. [Abstract](#Abstract) 
+2. [Data](#Data)
+3. [Machine learning](#Machinelearning)
+4. [SHAP methodology](#SHAPmethodology)
 
 
 <a name="Abstract"/>
@@ -38,6 +36,8 @@ GPI ranks 163 independent states and territories according to their level of pea
 GPI data are available from 2008 until 2020 at a yearly level. We download the yearly GPI data from the IEP site. These data can be found in the folder named `gpi_all_countries.csv`. Next, we use the `Fips10_4.csv` to match the countries with the FIPS country codes used by the GDELT database. In addition, for this study, we increase GPI frequency from yearly to monthly data using linear interpolation. Every yearly GPI value is assigned to March of the corresponding year since most of the annual GPI indicators are measured until this month. We upsample the yearly GPI score to monthly GPI score for each country, 
 using the code named `Upsampling_GPI_score_for_all_countries.ipynb`.
 
+<a name="Machinelearning"/>
+
 ## Machine learning
 We merge GDELT and GPI data at a country level, and we prepare the data for machine learning, using the code named `Preparation_gpi_gdelt_files_for_machine_learning.ipynb`. We create 163 files with data at a country and monthly level.
 In addition, we use Linear Regression, Elastic Net, Decision Tree, Support Vector Regression (SVR), Random Forest, and Extreme Gradient Boosting (XGBoost) to investigate the relationship between the GPI score and the GDELT variables at a country and monthly level. Specifically, we aim to develop GPI estimates 1-month-ahead to 6-months-ahead of the latest ground-truth GPI value and find the model with the highest performance overall. For the United Kingdom and the United States studies (section 5.) we need to create the data that we use for future prediction when GPI data is not yet available. Thus, we run again the code `Preparation_gpi_gdelt_files_for_machine_learning.ipynb` to create the most updated data (up to Sept. 20200). You can find the data in file `all_variables_200803_202009`. 
@@ -59,7 +59,8 @@ The boxplots represent the distribution of the Pearson correlation and MAPE for 
 </sup>
 
 
-<a name="SHAP methodology"/>
+<a name="SHAPmethodology"/>
+
 ## SHAP methodology
 
 
