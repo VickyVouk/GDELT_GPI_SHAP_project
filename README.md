@@ -15,11 +15,15 @@ If you use our approach or code in this repository, please cite our paper:
 Voukelatou, V., Miliou, I., Giannotti, F., & Pappalardo, L. (2021). Understanding peacefulness through the world news. arXiv preprint arXiv:2106.00306.  <br/>
 https://arxiv.org/abs/2106.00306
 
-`@article{voukelatou2021understanding, `<br/>
-  `title={Understanding peacefulness through the world news},` <br/>
+`@article{voukelatou2022understanding, `<br/>
+  `title={Understanding peace through the world news},` <br/>
   `author={Voukelatou, Vasiliki and Miliou, Ioanna and Giannotti, Fosca and Pappalardo, Luca},` <br/>
-  `journal={arXiv preprint arXiv:2106.00306},` <br/>
- ` year={2021}
+  `journal={EPJ Data Science},` <br/>
+  `volume={11},`<br/>
+  `number={1}`<br/>
+  `pages={2},`<br/>
+ ` year={2022}` <br>
+ `publisher={Springer Berlin Heidelberg}` <br>
 } `
 
 
