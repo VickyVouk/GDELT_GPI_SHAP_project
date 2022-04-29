@@ -12,8 +12,9 @@
 
 If you use our approach or code in this repository, please cite our paper:
 
-Voukelatou, V., Miliou, I., Giannotti, F., & Pappalardo, L. (2021). Understanding peacefulness through the world news. arXiv preprint arXiv:2106.00306.  <br/>
-https://arxiv.org/abs/2106.00306
+Voukelatou, V., Miliou, I., Giannotti, F., & Pappalardo, L. (2021). Understanding peace through the world news.
+ <br/>
+https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00315-z
 
 `@article{voukelatou2022understanding, `<br/>
   `title={Understanding peace through the world news},` <br/>
