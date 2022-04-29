@@ -1,0 +1,201 @@
+CAMEOEVENTCODE,EVENTDESCRIPTION
+10,Make statement
+11,Decline comment
+12,Make pessimistic comment
+13,Make optimistic comment
+14,Consider policy option
+15,Acknowledge or claim responsibility
+16,Deny responsibility
+17,Engage in symbolic act
+18,Make empathetic comment
+19,Express accord
+20,Appeal
+21,Appeal for material cooperation
+211,Appeal for economic cooperation
+212,Appeal for military cooperation
+213,Appeal for judicial cooperation
+214,Appeal for intelligence
+22,Appeal for diplomatic cooperation
+23,Appeal for aid
+231,Appeal for economic aid
+232,Appeal for military aid
+233,Appeal for humanitarian aid
+234,Appeal for military protection or peacekeeping
+24,Appeal for political reform
+241,Appeal for change in leadership
+242,Appeal for policy change
+243,Appeal for rights
+244,"Appeal for change in institutions, regime"
+25,Appeal to yield
+251,Appeal for easing of administrative sanctions
+252,Appeal for easing of popular dissent
+253,Appeal for release of persons or property
+254,"Appeal for easing of economic sanctions, boycott, or embargo"
+255,Appeal for target to allow international involvement (non-mediation)
+256,Appeal for de-escalation of military engagement
+26,Appeal to others to meet or negotiate
+27,Appeal to others to settle dispute
+28,Appeal to others to engage in or accept mediation
+30,Express intent to cooperate
+31,Express intent to engage in material cooperation
+311,Express intent to cooperate economically
+312,Express intent to cooperate militarily
+313,Express intent to cooperate on judicial matters
+314,Express intent to cooperate on intelligence
+32,Express intent to provide diplomatic cooperation
+33,Express intent to provide matyerial aid
+331,Express intent to provide economic aid
+332,Express intent to provide military aid
+333,Express intent to provide humanitarian aid
+334,Express intent to provide military protection or peacekeeping
+34,Express intent to institute political reform
+341,Express intent to change leadership
+342,Express intent to change policy
+343,Express intent to provide rights
+344,"Express intent to change institutions, regime"
+35,Express intent to yield
+351,Express intent to ease administrative sanctions
+352,Express intent to ease popular dissent
+353,Express intent to release persons or property
+354,"Express intent to ease economic sanctions, boycott, or embargo"
+355,Express intent allow international involvement (not mediation)
+356,Express intent to de-escalate military engagement 
+36,Express intent to meet or negotiate
+37,Express intent to settle dispute
+38,Express intent to accept mediation
+39,Express intent to mediate
+40,Consult
+41,Discuss by telephone
+42,Make a visit
+43,Host a visit
+44,Meet at a third location
+45,Mediate
+46,Engage in negotiation
+50,Engage in diplomatic cooperation
+51,Praise or endorse
+52,Defend verbally
+53,Rally support on behalf of
+54,Grant diplomatic recognition
+55,Apologize
+56,Forgive
+57,Sign formal agreement
+60,Engage in material cooperation
+61,Cooperate economically
+62,Cooperate militarily
+63,Engage in judicial cooperation
+64,Share intelligence or information
+70,Provide aid
+71,Provide economic aid
+72,Provide military aid
+73,Provide humanitarian aid
+74,Provide military protection or peacekeeping
+75,Grant asylum
+80,Yield 
+81,Ease administrative sanctions
+811,Ease restrictions on political freedoms
+812,Ease ban on political parties or politicians
+813,Ease curfew
+814,Ease state of emergency or martial law
+82,Ease political dissent 
+83,Accede to requests or demands for political reform 
+831,Accede to demands for change in leadership
+832,Accede to demands for change in policy
+833,Accede to demands for rights
+834,"Accede to demands for change in institutions, regime"
+84,"Return, release"
+841,"Return, release person(s)"
+842,"Return, release property"
+85,"Ease economic sanctions, boycott, embargo"
+86,Allow international involvement 
+861,Receive deployment of peacekeepers
+862,Receive inspectors
+863,Allow delivery of humanitarian aid
+87,De-escalate military engagement
+871,"Declare truce, ceasefire"
+872,Ease military blockade
+873,Demobilize armed forces
+874,Retreat or surrender militarily
+90,Investigate
+91,"Investigate crime, corruption"
+92,Investigate human rights abuses
+93,Investigate military action
+94,Investigate war crimes
+100,Demand
+101,"Demand information, investigation"
+102,Demand policy support
+103,"Demand aid, protection, or peacekeeping"
+104,Demand political reform
+105,Demand mediation
+106,"Demand meeting, negotiation"
+107,Demand ceasefire
+108,"Demand meeting, negotiation"
+110,Disapprove
+111,Criticize or denounce 
+112,Accuse
+113,Rally opposition against
+114,Complain officially 
+115,Bring lawsuit against 
+116,Find guilty or liable (legally)
+120,Reject
+121,Reject material cooperation
+122,Reject request or demand for material aid
+123,Reject request or demand for political reform
+124,Refuse to yield
+125,"Reject proposal to meet, discuss, or negotiate"
+126,Reject mediation
+127,"Reject plan, agreement to settle dispute"
+128,"Defy norms, law"
+129,Veto
+130,Threaten
+131,Threaten non-force
+132,Threaten with administrative sanctions
+133,"Threaten political dissent, protest"
+134,Threaten to halt negotiations
+135,Threaten to halt mediation
+136,Threaten to halt international involvement (non-mediation)
+137,Threaten with violent repression
+138,Threaten to use military force
+139,Give ultimatum
+140,Engage in political dissent
+141,Demonstrate or rally
+142,Conduct hunger strike
+143,Conduct strike or boycott
+144,"Obstruct passage, block"
+145,"Protest violently, riot"
+150,Demonstrate military or police power
+151,Increase police alert status
+152,Increase military alert status
+153,Mobilize or increase police power
+154,Mobilize or increase armed forces 
+160,Reduce relations
+161,Reduce or break diplomatic relations
+162,Reduce or stop aid
+163,"Impose embargo, boycott, or sanctions"
+164,Halt negotiations
+165,Halt mediation
+166,Expel or withdraw
+170,Coerce 
+171,Seize or damage property
+172,Impose administrative sanctions
+173,"Arrest, detain, or charge with legal action "
+174,Expel or deport individuals
+175,Use tactics of violent repression  
+180,Use unconventional violence
+181,"Abduct, hijack, or take hostage "
+182,Physically assault
+183,Conduct non-military bombing
+184,Use as human shield 
+185,Attempt to assassinate
+186,Assassinate 
+190,Use conventional military force
+191,"Impose blockade, restrict movement "
+192,Occupy territory
+193,Fight with small arms and light weapons
+194,Fight with artillery and tanks
+195,Employ aerial weapons
+196,Violate ceasefire 
+200,Use unconventional mass violence
+201,Engage in mass expulsion
+202,Engage in mass killings
+203,Engage in ethnic cleansing
+204,Use weapons of mass destruction
