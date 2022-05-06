@@ -6,6 +6,7 @@
 3. [Data](#Data)
 4. [Machine learning](#Machinelearning)
 5. [Explanations](#SHAPmethodology)
+6. [PeaceMap](#dashboard)
 
 ## Citing
 <a name="Citing"/>
@@ -115,3 +116,14 @@ For example, Figure 2 presents the local SHAP plot for Yemen. The prediction for
 <img width="605" alt="Screen Shot 2021-12-17 at 4 35 42 PM" src="https://user-images.githubusercontent.com/35956507/146569320-4c902590-2494-456d-bf72-087a46e3ecec.png">
 
 <sup>Figure 2. It presents the model output value, i.e., the GPI estimation of June 2018. The red arrows are the variables that push the GPI estimation higher, and the blue ones push the estimation lower.</sup>
+
+<a name="dashboard"/>
+
+## PeaceMap
+
+We created an interactive dashboard for the visualisation of the results. The dashboard serves as a tool to give early warnings to policy-makers.
+The link is available online at: <br>
+The data and the code used for the preparation of the ETL document, i.e., the CSV document that incldudes all data used for the visualisation 
+can be found in the folder named `Dashboard`. <br>
+The code for the creation of dashboard can be found in the following GitHub link: https://github.com/danielefadda/gpi_dashboard
+
