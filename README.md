@@ -125,5 +125,5 @@ We created an interactive dashboard for the visualisation of the results. The da
 The link is available online at: <br>
 The data and the code used for the preparation of the ETL document, i.e., the CSV document that incldudes all data used for the visualisation 
 can be found in the folder named `Dashboard`. <br>
-The code for the creation of dashboard can be found in the following GitHub link: https://github.com/danielefadda/gpi_dashboard
+The code for the creation of dashboard can be found in the following GitHub link: https://github.com/danielefadda/gpi_dashboard/tree/demopaper
 
