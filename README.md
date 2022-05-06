@@ -122,7 +122,7 @@ For example, Figure 2 presents the local SHAP plot for Yemen. The prediction for
 ## PeaceMap
 
 We created an interactive dashboard for the visualisation of the results. The dashboard serves as a tool to give early warnings to policy-makers.
-The link is available online at: <br>
+The link is available online at: http://experiments.sobigdata.eu/gpi_prediction/ <br>
 The data and the code used for the preparation of the ETL document, i.e., the CSV document that incldudes all data used for the visualisation 
 can be found in the folder named `Dashboard`. <br>
 The code for the creation of dashboard can be found in the following GitHub link: https://github.com/danielefadda/gpi_dashboard/tree/demopaper
